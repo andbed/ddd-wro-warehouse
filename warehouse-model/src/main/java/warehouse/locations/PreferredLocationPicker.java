@@ -1,8 +1,8 @@
-package warehouse;
+package warehouse.locations;
 
 /**
  * Created by michal on 08.06.2016.
  */
 public interface PreferredLocationPicker {
-    String sagestLocationFor(PaletteLabel paletteLabel);
+    Location suggestFor(String refNo);
 }
